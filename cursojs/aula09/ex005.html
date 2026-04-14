@@ -6,7 +6,7 @@
     <title>Primeiros passos com DOW</title>
     <style>
         body {
-            background-color: lightblue;
+            background-color: rgb(88, 113, 121);
             color: white;
             font: normal 1.5em arial;
         }
@@ -15,9 +15,16 @@
 <body>
     <h1>Iniciando estudos com DOW</h1>
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOW</strong> em JS</p>]
+    <p>Aprendendo a usar o <strong>DOW</strong> em JS</p>
     <div>CLique em mim</div>
     <script>
+        let corpo = window.document.body
+        let p3 = window.document.getElementsByTagName('p')[1]
+        corpo.style.color = 'black'
+        document.write(p3.innerText)
+        p3.style.color = 'blue';
+
+
         
     </script>
 </body>
