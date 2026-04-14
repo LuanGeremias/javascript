@@ -16,7 +16,7 @@
     <h1>Iniciando estudos com DOW</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOW</strong> em JS</p>
-    <div name = "msg">Aguardando...</div>
+    <div id = "msg">Aguardando...</div>
     
 
     <script>
@@ -27,16 +27,19 @@
         p3.style.color = 'blue';
 
 
-        //let d = window.document.getElementById('msg')
-        //d.innerText = 'Estou aguardando...'
+        /*let d = window.document.getElementById('msg')
+        d.innerText = 'Estou aguardando...'
 
         let e = window.document.getElementsByName('msg')[0]
         e.innerText = 'Mensagem com getelementsname...'
         e.style.color = 'red'
 
-        /*let c = window.document.getElementsByClassName('msg3')
+        let c = window.document.getElementsByClassName('msg3')
         c.innerText = 'Mensagem com getElementsClass'
         c.style.color = 'red'*/
+
+        let d = window.document.querySelector('div#msg')
+        d.innerText = 'Vasco'
     </script>
 </body>
 </html>
