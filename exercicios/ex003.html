@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação do segundo grau</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('Digite o valor de a:'));
+        let b = parseInt(prompt('Digite o valor de b:'));
+        let c = parseInt(prompt('Digite o valor de c:'));
+        let delta = Math.pow(b,2) - 4 * a * c;
+        let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+        let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+        console.log('O valor de x1 é: ' + x1 + ' E o valor de x2 é: ' + x2)
+    </script>
+</body>
+</html>

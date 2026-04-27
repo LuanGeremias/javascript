@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de IMC</title>
+</head>
+<body>
+    <script>
+        let peso = parseFloat(prompt('Digite seu peso:'));
+        let alt = parseFloat(prompt('Digite sua altura:'));
+        imc = peso / Math.pow(alt,2);
+        console.log('Seu IMC é: ' + Math.trunc(imc));
+    </script>
+</body>
+</html>
