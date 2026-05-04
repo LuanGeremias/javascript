@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulo</title>
+</head>
+<body>
+    <script>
+        let l1 = parseInt(prompt('Digite um lado do triangulo:'));
+        let l2 = parseInt(prompt('Digite outro lado do triangulo:'));
+        let l3 = parseInt(prompt('Digite mais um lado do triangulo:'));
+        if(l1 == l2 && l2 == l3){
+            alert('Triângulo equilatero')
+        }else if((l1 == l2 && l2 != l3) || (l3 == l2 && l2 != l1) || (l1 == l3 && l3 != l2) || (l3 == l2 && l3 != l1) || (l1 == l2 && l1 != l3) || (l1 == l3 && 11 != l2)){
+            alert('Triângulo isósceles')
+        }else{
+            alert('Trianfulo escaleno')
+        }
+    </script>
+</body>
+</html>
